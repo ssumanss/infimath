@@ -1,6 +1,6 @@
 <template>
-<div>
-  <b-navbar toggleable="lg" type="light" variant="light">
+<div class="stcky-top">
+  <b-navbar toggleable="lg" type="light" class="navbar-dark elegant-color">
     <b-container>
     <b-navbar-brand href="/">INFI<strong>MATH</strong></b-navbar-brand>
 

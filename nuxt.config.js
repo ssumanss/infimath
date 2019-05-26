@@ -27,6 +27,7 @@ export default {
   ** Global CSS
   */
   css: [
+    'mdbvue/build/css/mdb.css'
   ],
 
   /*
@@ -55,10 +56,9 @@ export default {
   ** Build configuration
   */
   build: {
-    /*
-    ** You can extend webpack config here
-    */
-    extend(config, ctx) {
-    }
+    extend(config, ctx) {},
+    transpile: [
+      'mdbvue'
+    ]
   }
 }
